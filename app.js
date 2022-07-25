@@ -1,5 +1,5 @@
 const container = document.getElementById("blog-container");
-console.log(container);
+
 function blogsAdd({ author, title, urlToImage, url }) {
   return container.insertAdjacentHTML(
     "beforeend",
