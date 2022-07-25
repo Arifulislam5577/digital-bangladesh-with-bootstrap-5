@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+#hero-area {
+  min-height: 90vh;
+}
+
+@media (max-width: 576px) {
+  #hero-area {
+    min-height: 70vh;
+  }
+}
+
+ion-icon[name="menu-outline"] {
+  font-size: 30px;
+}
+
+ion-icon[name="menu-outline"] {
+  font-size: 30px;
+}
+
+.service-icons {
+  font-size: 3rem;
+}
+
+.blog-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.blog-author {
+  font-size: 12px;
+  font-weight: bold;
+}
