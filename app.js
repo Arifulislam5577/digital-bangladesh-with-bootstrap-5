@@ -15,6 +15,7 @@ function blogsAdd({ author, title, urlToImage, url }) {
                   }"
                   alt="${title}"
                   class="card-img-top"
+                  style="object-fit:cover; height: 10rem"
                 />
                 <div class="card-body py-4">
                   <h5 class="card-title blog-title">
